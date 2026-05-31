@@ -1,5 +1,5 @@
 # KaaDivisors
-Simple CLI program for finding divisors of huge numbers.
+Simple CLI program for finding divisors of huge numbers
 
 Very FAST. Written in Rust.
 
