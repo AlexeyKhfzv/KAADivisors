@@ -1,8 +1,8 @@
 //! # Divisors
 //!
-//! This program returns divisors of a number
+//! Simple CLI program for finding divisors of huge numbers
 //!
-//! **Run** - `kaadivs` or `kaadivs <your_number>` (example: divisors 123)
+//! **Run** - `kaadivs` or `kaadivs <your_number>` (example: kaadivs 123)
 
 /// This function returns the number of times the divisor occurs in the number (the power)
 ///
