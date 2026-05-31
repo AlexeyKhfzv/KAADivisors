@@ -29,16 +29,6 @@ All divisors are PRIME NUMBERS (2, 3, 5, 3607, 3803).
 
 Indeed, 2 × 3<sup>2</sup> × 5 × 3607 × 3803 = 1234567890
 
-## Time Complexity
-
-![scatter](scatter.png)
-**xaxis** - values 1 to 1 000 000  
-**yaxis** - execution time, microsecs
-
-The measurements based on the algorithm in the **Rust** language. The scatter was made by Plotly (Python).
-
-You can take a closer look in the [scatter.html](scatter.html). Download it, because it's too big to be shown here.
-
 ## All Commands
 * `kaadivs` or `kaadivisors`
 * `kaadivs <your_number>` (example: kaadivs 123)
