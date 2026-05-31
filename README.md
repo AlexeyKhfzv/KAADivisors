@@ -1,4 +1,4 @@
-# Divisors Very Fast
+# KaaDivisors
 Simple CLI program for finding divisors of huge numbers.
 
 Very FAST. Written in Rust.
@@ -8,8 +8,8 @@ Very FAST. Written in Rust.
 [![Rust](https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white)](#)
 
 ## Getting Started
-`cargo install divisors_very_fast`  
-`divisors`
+`cargo install kaadivisors`  
+`kaadivs`
 
 ## Output Example
 ```
@@ -29,13 +29,6 @@ All divisors are PRIME NUMBERS (2, 3, 5, 3607, 3803).
 
 Indeed, 2 × 3<sup>2</sup> × 5 × 3607 × 3803 = 1234567890
 
-## Special Mode
-Yes, my program has special "Expedited" mode!  
-Run it - `EXPEDITED=1 divisors`
-
-In this mode my program gets already found divisors from file "found_divisors.bin".  
-You always can write the count of them by self - `EXPEDITED=1 divisors write_divisors <count>`
-
 ## Time Complexity
 
 ![scatter](scatter.png)
@@ -47,8 +40,5 @@ The measurements based on the algorithm in the **Rust** language. The scatter wa
 You can take a closer look in the [scatter.html](scatter.html). Download it, because it's too big to be shown here.
 
 ## All Commands
-* `divisors` or `divisors_very_fast`
-* `divisors <your_number>` (example: divisors 123)
-* `EXPEDITED=1 divisors`
-* `EXPEDITED=1 divisors <your_number>`
-* `EXPEDITED=1 divisors write_divisors <count>`
+* `kaadivs` or `kaadivisors`
+* `kaadivs <your_number>` (example: kaadivs 123)
